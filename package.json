@@ -4,7 +4,7 @@
   "description": "Twitter reply bot for when someone mentions you",
   "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bot.js"
   },
   "keywords": [
     "twitter",

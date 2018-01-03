@@ -19,7 +19,7 @@ stream.on('tweet', (t) => {
 	var replyingto = t.in_reply_to_screen_name;
 	var text = t.text;
 	var from = t.user.screen_name;
-	console.log(from + ' sent ' + text + '\n');
+	//console.log(from + ' sent ' + text + '\n');
 
   	if (replyingto == '4TunGaming') {
 		var newTweet = '@' + from + '-- Game ON!! #indie #dev #gaming';

@@ -9,6 +9,7 @@ Written in nodeJS
 
 ### Get it running
 Add your Twitter API creds to your .env file
+...and Deploy :)
 
 Written by techBytesIO
 Twitter: [Follow me @techBytesIO](https://www.twitter.com/techbytesIO)

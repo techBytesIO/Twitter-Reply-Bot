@@ -1,0 +1,21 @@
+{
+  "name": "twitreplybot",
+  "version": "1.0.0",
+  "description": "Twitter reply bot for when someone mentions you",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "twitter",
+    "twit",
+    "reply",
+    "bot"
+  ],
+  "author": "JimT (techBytesIO)",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "twit": "^2.2.9"
+  }
+}

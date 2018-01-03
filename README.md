@@ -2,7 +2,7 @@
 
 Written in nodeJS
 
-### Bots inculded in this program
+### Bots included in this program
 
 * Reply Bot
 	+ Runs constant

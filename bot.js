@@ -22,7 +22,7 @@ stream.on('tweet', (t) => {
 	//console.log(from + ' sent ' + text + '\n');
 
   	if (replyingto == '4TunGaming') {
-		var newTweet = '@' + from + '-- Game ON!! #indie #dev #gaming';
+		var newTweet = '@' + from + ' -- Game ON!! #indie #dev #gaming';
 		tweetIt(newTweet);
 	}
 });
@@ -44,3 +44,28 @@ function tweetIt(txt) {
 	}
 	
 };
+
+//Followed by User
+
+stream.on('follow', (followed) => {
+	var name = followed.source.name;
+	var screenName = followed.source.screen_name;
+	tweetIt('@' + screen_name + 'Thanks for the follow!! Game on!! #indie #dev');
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

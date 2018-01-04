@@ -1,4 +1,4 @@
-# Twitter BOT README (Reply bot for @mentions)
+# Twitter BOT README (Reply bot for @mentions & follows)
 
 Written in nodeJS
 

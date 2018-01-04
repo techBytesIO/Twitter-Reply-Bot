@@ -6,6 +6,8 @@ Written in nodeJS
 
 * Reply Bot
 	+ Runs constant
+* Follow Reply Bot
+	+ Runs constant
 
 ### Get it running
 Add your Twitter API creds to your .env file

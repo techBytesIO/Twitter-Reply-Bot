@@ -37,6 +37,7 @@ function tweetIt(txt) {
 	function tweeted(err, data, res) {
 		if (err) {
 			console.log("Something went wrong!! You'll have to fix it! \n");
+			console.log(err + "\n");
 		} else {
 			console.log("Tweet replied to!!! \n");
 		}

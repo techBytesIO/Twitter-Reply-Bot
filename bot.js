@@ -50,7 +50,7 @@ function tweetIt(txt) {
 stream.on('follow', (followed) => {
 	var name = followed.source.name;
 	var screenName = followed.source.screen_name;
-	tweetIt('@' + screen_name + 'Thanks for the follow!! Game on!! #indie #dev');
+	tweetIt('@' + screenName + 'Thanks for the follow!! Game on!! #indie #dev');
 });
 
 

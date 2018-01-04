@@ -39,7 +39,7 @@ function tweetIt(txt) {
 			console.log("Something went wrong!! You'll have to fix it! \n");
 			console.log(err + "\n");
 		} else {
-			console.log("Tweet replied to!!! \n");
+			console.log("Tweet SENT!!! \n");
 		}
 	}
 	
@@ -50,7 +50,7 @@ function tweetIt(txt) {
 stream.on('follow', (followed) => {
 	var name = followed.source.name;
 	var screenName = followed.source.screen_name;
-	tweetIt('@' + screenName + 'Thanks for the follow!! Game on!! #indie #dev');
+	tweetIt('@' + screenName + '  Thanks for the follow!! Game on!! #indie #dev');
 });
 
 
